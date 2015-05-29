@@ -309,6 +309,8 @@
       <p class="description">{{ drop.description }}</p>
       <p>Brought to the club by <a class="member" href="http://twitter.com/{{ drop.member }}">@{{ drop.member }}</a></p>
     </li>
+  {% else %}
+    <li>Oops! Seems like we're about to get drunk soon.</li>
   {% endfor %}
   </ul>
   <footer>
