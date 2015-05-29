@@ -292,9 +292,6 @@
     </ol>
   </header>
   <ul>
-  {% if site.data.drops == null %}
-    <li>Oops! Seems like we're about to get drunk soon.</li>
-  {% else %}
   {% for drop in site.data.drops %}
     <li class="module">
       <p class="date-wrapper"><time datetime="{{ drop.date }}">{{ drop.date | date_to_string }}</time></p>
@@ -313,7 +310,6 @@
       <p>Brought to the club by <a class="member" href="http://twitter.com/{{ drop.member }}">@{{ drop.member }}</a></p>
     </li>
   {% endfor %}
-  {% endif %}
   </ul>
   <footer>
     <p>#beerclub takes place each Friday afternoon during status <a href="http://rga.com">R/GA PDX</a></p>
