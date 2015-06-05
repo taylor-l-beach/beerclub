@@ -104,8 +104,8 @@
       font-size: 0.8em;
       color: #fff;
       background: transparent;
-      border-radius: 15px;
-      box-shadow: 0 10px 0 0 #2c6649;
+      /*border-radius: 15px;*/
+      /*box-shadow: 0 10px 0 0 #2c6649;*/
       list-style-position: inside;
       text-indent: -1em;
     }
@@ -114,6 +114,18 @@
       	text-align: center;
         line-height: 1.2em;
         margin-bottom: 0.5em;
+      }
+      ul.quotes:after {
+      	display: block;
+      	content: '';
+      	height: 1px;
+      	width: 200px;
+      	margin: 60px auto 0;
+      	position: static;
+      	background-color: rgba(255,255,255,0.15);
+      }
+      footer h2 {
+      	margin-top: 0.5em;
       }
 
     a:link,
