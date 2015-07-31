@@ -1,3 +1,11 @@
+- date: 2015-07-23 17:00:00 +0000
+  beer: "The whole gang"
+  brewery: "Hoyt Arboretum ~ Portland, OR"
+  member: "rga_pdx"
+  description: "What a great bunch of goofy people"
+  instagramUrl: https://instagram.com/p/5sLDTHi0nI
+  award: "3rd Annual R/GA PDX Summer BBQ"
+
 - date: 2015-06-5 17:00:00 +0000
   beer: "Let the festivities begin!!"
   brewery: "Staff at R/GA Portland"
@@ -8,7 +16,7 @@
 
 - date: 2015-06-5 17:00:00 +0000
   beer: "Amazing eats"
-  brewery: "Little Big Burger, Portland OR"
+  brewery: "Little Big Burger ~ Portland OR"
   member: "rga_pdx"
   description: "Not a hungry stomach in the house"
   instagramUrl: https://instagram.com/p/3t8gV9i0tg
@@ -24,7 +32,7 @@
 
 - date: 2015-06-5 17:00:00 +0000
   beer: "Omission: Pale Ale, IPA, Lager"
-  brewery: "Widmer Brothers Brewing, Portland OR"
+  brewery: "Widmer Brothers Brewing ~ Portland OR"
   member: "rga_pdx"
   description: "In addition to the house margaritas, there were even gluten-free options for those so inclined..."
   instagramUrl: https://instagram.com/p/3t8atKC0tS
